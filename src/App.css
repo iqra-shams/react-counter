@@ -1,3 +1,11 @@
+body {
+  background-color: #b7d1eb;
+  color: white;
+  padding: 40px;
+  font-family: Sans-Serif;
+  text-align: center;
+  padding: 70px 0;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +43,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+.btn{
+align-items: center;
+background-color: #282c3403;
+font-size: 100px;
+font-weight: 100;
+border-radius: 100px;
+color: rgb(15, 14, 14);
+border:white;
+}
+#demo{
+  font-size: 100px;
+  color: white;
+  
+}
+.bu{
+  column-count: 3;
+}
+h1{
+  letter-spacing: 5px;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100px;
+  font-style: italic;
+  border:#282c34;
 }
