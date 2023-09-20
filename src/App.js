@@ -1,9 +1,15 @@
-import React from 'react';
-import Count from './counter.js'
+import React from 'react'
+import CountJS from './counter.js'
+import Counter from './counter.jsx'
+import Profile from './Profile.jsx';
 import './App.css';
+
 function App() {
   return (
     <div>
+      {/* <Count/> */}
+      {/* <Counter /> */}
+<Profile/>
       <Count/>
     </div>
      );
